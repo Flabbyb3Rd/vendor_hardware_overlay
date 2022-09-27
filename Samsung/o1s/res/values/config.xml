@@ -1023,8 +1023,13 @@
 	    <bool name="config_automatic_brightness_available">true</bool>
 	    <bool name="config_dozeAfterScreenOffByDefault">true</bool>
 	    <bool name="config_displayBlanksAfterDoze">false</bool>
-	    <dimen name="status_bar_height">95px</dimen>
-	    <dimen name="status_bar_height_portrait">95px</dimen>
+			<dimen name="status_bar_height">95.0px</dimen>
+			<dimen name="status_bar_height_portrait">95.0px</dimen>
+			<dimen name="status_bar_height_landscape">32.0dip</dimen>
+			<dimen name="status_bar_padding_top">32px</dimen>
+			<dimen name="rounded_corner_radius_top">56.0dip</dimen>
+			<dimen name="rounded_corner_radius_bottom">56.0dip</dimen>
 	    <integer name="config_defaultRefreshRate">0</integer>
 	    <integer name="config_defaultPeakRefreshRate">120</integer>
+			<string name="config_mainBuiltInDisplayCutout">M 0,0 H -9.333333333333333 V 27 H 9.333333333333333 V 0 H 0 Z @dp</string>
 </resources>
